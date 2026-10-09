@@ -1,0 +1,13 @@
+CompileFlags:
+  CompilationDatabase: build
+  Remove:
+    - -m*
+    - -f*
+
+InlayHints:
+  Enabled: No
+
+Diagnostics:
+  Suppress:
+    - pp_file_not_found
+    - unused-includes
